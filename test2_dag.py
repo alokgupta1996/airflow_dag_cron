@@ -4,7 +4,6 @@ from airflow.models import DagRun
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 # from .data_cleaning import clean_data
-from xgboost import XGBCLassifier
 from test2_api.data_cleaning import clean_data
 from test2_api.model_creation import create_model
 from test2_api.inference import infer_model
